@@ -12,11 +12,11 @@ board = [" "," "," "," "," "," "," "," "," "]
 display_board(board)
 
 def display_boardX(boardX)
-  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts " #{boardX[0]} | #{boardX[1]} | #{boardX[2]} "
   puts "-----------"
-  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts " #{boardX[3]} | #{boardX[4]} | #{boardX[5]} "
   puts "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+  puts " #{boardX[6]} | #{boardX[7]} | #{boardX[8]} "
 end
 
 boardX = [" "," "," "," ","X"," "," "," "," "]
