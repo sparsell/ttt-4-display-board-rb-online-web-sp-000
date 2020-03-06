@@ -11,7 +11,7 @@ end
 board = [" "," "," "," "," "," "," "," "," "]
 display_board(board)
 
-def display_boardX(boardX)
+def display_board(boardX)
   puts " #{boardX[0]} | #{boardX[1]} | #{boardX[2]} "
   puts "-----------"
   puts " #{boardX[3]} | #{boardX[4]} | #{boardX[5]} "
@@ -21,4 +21,4 @@ end
 
 boardX = [" "," "," "," ","X"," "," "," "," "]
 
-display_boardX(boardX)
+display_board(boardX)
