@@ -21,4 +21,4 @@ end
 
 boardX = [" "," "," "," ","X"," "," "," "," "]
 
-display_board(boardX)
+display_boardX(boardX)
